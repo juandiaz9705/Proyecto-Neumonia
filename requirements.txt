@@ -1,0 +1,4 @@
+tk
+tensorflow
+pillow
+opencv-python
