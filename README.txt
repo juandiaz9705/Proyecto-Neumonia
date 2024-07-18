@@ -12,6 +12,11 @@ Requerimientos necesarios para el funcionamiento:
 	pip install -r requirements.txt
 
 	python detector_neumonia.py
+
+Nota: 
+1. se debe descargar el archivo de la predicción de la siguiente ruta: https://drive.google.com/drive/folders/1GrdtsYRcOzQJdkgkfpspNfzNii8XX18T?usp=sharing ya que este archivo es importante para generar la predicción.
+
+2. Una vez descargado el archivo WilhemNet_86.h5, se debe modificar la línea 6 del archivo load_model.py para actualizar la ruta del modelo. En mi caso, esta línea apunta a mi entorno local: model_cnn = tf.keras.models.load_model('C:/UAO/UAO-Neumonia/WilhemNet_86.h5'). Debes cambiar esta ruta para que apunte a la ubicación donde se guardó el archivo del modelo descargado
 ----------------------------------------------------------------------------------
 
 Uso de la herramienta:
