@@ -7,7 +7,7 @@ Requerimientos necesarios para el funcionamiento:
 - Descargue python de la siguiente ruta: https://www.python.org/downloads/windows/
 
 - Abra la consola del sistema y ejecute las siguientes líneas
-	git clone https://isabella83tr@bitbucket.org/isabella83tr/codes.git
+	git clone https://github.com/juandiaz9705/Proyecto-Neumonia.git
 
 	pip install -r requirements.txt
 
